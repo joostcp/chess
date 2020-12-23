@@ -1,0 +1,25 @@
+
+U
+%src/com/company/components/Board.java,d/d/dd745f5ebae5a5b4e07fd9ae8f8ddf60cb71fdab
+P
+ src/com/company/pieces/Pawn.java,e/1/e17281c4a365786346fb0d69886eb6a9e73c0b80
+Q
+!src/com/company/pieces/Piece.java,5/f/5f389669e30abdb9d89eac7e809c70c23424a5a2
+R
+"src/com/company/pieces/Bishop.java,e/9/e9ff12bd3dd35dddcfb903e2beb6faa31eb29b7e
+P
+ src/com/company/pieces/King.java,8/2/821952ff4d5f6850b02686163bf2b0558ef251a1
+R
+"src/com/company/pieces/Knight.java,6/2/629e0ecda7296c249719dcf18b69fbf065fd36c3
+P
+ src/com/company/pieces/Move.java,1/2/12fed92d9f6fe3c9037816e58d0b1a30ad3a2a70
+Q
+!src/com/company/pieces/Queen.java,8/1/81986282f8f7f100cf55fc007a7a0e8efc01c86e
+P
+ src/com/company/pieces/Rook.java,6/c/6c64eeb54a87aad4d189204e9982f9a35f57b390
+U
+%src/com/company/components/Field.java,7/9/79a78f4bb760f4eda72f06ccc8352745a2af65ac
+I
+src/com/company/Main.java,4/a/4a831b10439099d44774d0ccc387e808deffaeab
+T
+$src/com/company/components/Game.java,f/8/f87e68a70ad9a0699af8b26563887e27f8ba5813

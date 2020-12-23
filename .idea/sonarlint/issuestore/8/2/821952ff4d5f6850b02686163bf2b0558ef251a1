@@ -1,0 +1,13 @@
+
+S
+java:S1128	"8Remove this unused import 'java.util.stream.Collectors'.(Óóº´úÿÿÿÿ
+t
+java:S1171"YMove the contents of this initializer to a standard constructor or to field initializers.(ÒÌâ–øÿÿÿÿ
+S
+java:S1128"8Remove this unused import 'com.company.components.Game'.(ôáôúÿÿÿÿ
+—
+java:S1186 "€Add a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation.(Ïñ
+T
+java:S1128"9Remove this unused import 'com.company.components.Field'.(Ë¦õ•ıÿÿÿÿ
+S
+java:S1128"8Remove this unused import 'java.util.function.Consumer'.(Ì†ƒÔùÿÿÿÿ

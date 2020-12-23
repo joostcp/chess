@@ -1,0 +1,69 @@
+
+V
+java:S1119x";Refactor the code to remove this label and the need for it.(µ²ø§üÿÿÿÿ
+O	java:S106¿"9Replace this use of System.out or System.err by a logger.(¤­°’
+W
+java:S1119";Refactor the code to remove this label and the need for it.(¸½à­ÿÿÿÿÿ
+Q
+java:S1119X";Refactor the code to remove this label and the need for it.(½ØÙÄ
+5
+java:S1065"Remove this unused label.(¸½à­ÿÿÿÿÿ
+0
+java:S1065"Remove this unused label.(½ØÙÄ
+T	java:S106Å"9Replace this use of System.out or System.err by a logger.(¤âü©øÿÿÿÿ
+V
+java:S11193";Refactor the code to remove this label and the need for it.(í¤¼úÿÿÿÿ
+/
+java:S1065`"Remove this unused label.(·Ó½‘
+4
+java:S10653"Remove this unused label.(í¤¼úÿÿÿÿ
+V
+java:S1119P";Refactor the code to remove this label and the need for it.(ßö‹§øÿÿÿÿ
+4
+java:S1065h"Remove this unused label.(¸½à­ÿÿÿÿÿ
+R
+java:S1119";Refactor the code to remove this label and the need for it.(½ØÙÄ
+5
+java:S1065­"Remove this unused label.(µ²ø§üÿÿÿÿ
+N	java:S106+"9Replace this use of System.out or System.err by a logger.(ÿÑù£
+P
+java:S11195";Refactor the code to remove this label and the need for it.(Á¢²v
+/
+java:S1065p"Remove this unused label.(ÆœË
+T
+java:S11171"9Rename "board" which hides the field declared at line 13.(¦¹•çúÿÿÿÿ
+N	java:S106Ì"9Replace this use of System.out or System.err by a logger.(°•Ş
+W
+java:S1119­";Refactor the code to remove this label and the need for it.(µ²ø§üÿÿÿÿ
+/
+java:S1065X"Remove this unused label.(½ØÙÄ
+T	java:S106Ê"9Replace this use of System.out or System.err by a logger.(¤³éëıÿÿÿÿ
+.
+java:S10655"Remove this unused label.(Á¢²v
+4
+java:S1065x"Remove this unused label.(µ²ø§üÿÿÿÿ
+5
+java:S1065…"Remove this unused label.(ßö‹§øÿÿÿÿ
+V
+java:S1119h";Refactor the code to remove this label and the need for it.(¸½à­ÿÿÿÿÿ
+4
+java:S1065P"Remove this unused label.(ßö‹§øÿÿÿÿ
+R
+java:S1119•";Refactor the code to remove this label and the need for it.(·Ó½‘
+R
+java:S1119¥";Refactor the code to remove this label and the need for it.(ÆœË
+N	java:S106Á"9Replace this use of System.out or System.err by a logger.(…Æ¡
+T	java:S106Ï"9Replace this use of System.out or System.err by a logger.(ŞÒ—üÿÿÿÿ
+0
+java:S1065¥"Remove this unused label.(ÆœË
+)
+java:S1700"Rename field "board"(¼Ø
+Q
+java:S1119`";Refactor the code to remove this label and the need for it.(·Ó½‘
+0
+java:S1065•"Remove this unused label.(·Ó½‘
+Q
+java:S1119p";Refactor the code to remove this label and the need for it.(ÆœË
+W
+java:S1119…";Refactor the code to remove this label and the need for it.(ßö‹§øÿÿÿÿ
+T	java:S106È"9Replace this use of System.out or System.err by a logger.(Í½Íáúÿÿÿÿ

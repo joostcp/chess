@@ -1,0 +1,9 @@
+
+Q
+java:S1128"/Remove this unused import 'java.util.Optional'.(¨˜ëİüÿÿÿÿ8çš·æ.
+R
+java:S2387"0"strikeMoves" is the name of a field in "Piece".(–èö‚şÿÿÿÿ8Ğ…Êæ.
+—
+java:S1186"€Add a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation.(Ïñ
+n
+java:S1171"YMove the contents of this initializer to a standard constructor or to field initializers.(Êş‹y

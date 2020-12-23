@@ -1,0 +1,32 @@
+
+F
+java:S1128"0Remove this unused import 'java.util.ArrayList'.(÷‰îƒ
+K
+java:S1128	".Remove this unused import 'java.util.Objects'.(¼¸õ›8•ïÌ«æ.
+A
+java:S1444"+Make this "public static board" field final(¶¼Ø•
+V	java:S125R"<This block of commented-out lines of code should be removed.(Ãí¾Üøÿÿÿÿ
+Q	java:S125I"<This block of commented-out lines of code should be removed.(²ìÞÇ
+N	java:S106v"9Replace this use of System.out or System.err by a logger.(×åÎá
+Q
+java:S1144t"6Remove this unused private "printMovesOfPiece" method.(ÏôÝÊüÿÿÿÿ
+F
+java:S1128"+Remove this unused import 'java.util.List'.(Õë±Äøÿÿÿÿ
+Z	java:S106["9Replace this use of System.out or System.err by a logger.(§ç‡’ûÿÿÿÿ8àƒùæ.
+Q
+java:S1128"/Remove this unused import 'java.sql.SQLOutput'.(ê¤òÃùÿÿÿÿ8ûøŽæ.
+g
+java:S1104"QMake board a static final constant or non-public and provide accessors if needed.(¶¼Ø•
+8
+java:S3010""Remove this assignment of "board".(æ…®™
+G
+java:S1068",Remove this unused "whosTurn" private field.(ì¤¢Ãýÿÿÿÿ
+U
+java:S2589V"8Remove this expression which always evaluates to "false"(õàáÞ8àƒùæ.
+]	java:S125M"<This block of commented-out lines of code should be removed.(üßž³ýÿÿÿÿ8ê¥Î«æ.
+K
+java:S2209"5Change this instance-reference to a static reference.(æ…®™
+]	java:S125`"<This block of commented-out lines of code should be removed.(Ž”ÎÆþÿÿÿÿ8á¶ïæ.
+U	java:S106W"9Replace this use of System.out or System.err by a logger.(ËÇÌå8àƒùæ.
+T
+java:S2589Z"7Remove this expression which always evaluates to "true"(¯ñŠ‹8Ýžûæ.

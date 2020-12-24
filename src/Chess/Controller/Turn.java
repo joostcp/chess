@@ -1,7 +1,9 @@
 package Chess.Controller;
 
 import Chess.Model.Field;
-import Chess.Model.pieces.*;
+import Chess.Model.pieces.Bishop;
+import Chess.Model.pieces.Piece;
+import Chess.Model.pieces.Rook;
 
 import java.awt.*;
 import java.util.ArrayList;
@@ -24,9 +26,9 @@ public class Turn {
     public static List<Field> findPieces(Piece.Color color) {
         List<Field> list = new ArrayList<>();
         list.addAll(findFieldForPiece(Rook.class, color));
-        list.addAll(findFieldForPiece(Queen.class, color));
-        list.addAll(findFieldForPiece(King.class, color));
-        list.addAll(findFieldForPiece(Knight.class, color));
+//        list.addAll(findFieldForPiece(Queen.class, color));
+//        list.addAll(findFieldForPiece(King.class, color));
+//        list.addAll(findFieldForPiece(Knight.class, color));
         //list.addAll(findFieldForPiece(Pawn.class, color));
         list.addAll(findFieldForPiece(Bishop.class, color));
         return list;

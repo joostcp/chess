@@ -238,9 +238,9 @@ public class Board {
 
         ROOKS:
         //toren
-        for (int i = 0; i < 8; i += 7) {
+        for (int i = 0; i < 2; i++) {
             Piece piece = new Rook(color);
-            board[rn.nextInt(max - min) + min][i].pieceOnField = Optional.of(piece);
+            board[rn.nextInt(max - min) + min][rn.nextInt(max - min) + min].pieceOnField = Optional.of(piece);
             //piece.setField(board[0][i]);
             blackPieces.add(piece);
         }

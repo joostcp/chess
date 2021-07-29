@@ -8,9 +8,9 @@ import java.time.LocalTime;
 
 public class Game {
 
-    private Player[] players = new Player[2];
-    private boolean finished;
-    private LocalTime startTime;
+    private final Player[] players = new Player[2];
+    private final boolean finished;
+    private final LocalTime startTime;
     public static Board board;
     private Player whosTurn;
 

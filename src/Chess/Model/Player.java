@@ -7,8 +7,6 @@ import java.util.List;
 
 public class Player {
 
-
-
     private final Piece.Color color;
     final String name;
     private List<Piece> taken;

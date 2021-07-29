@@ -17,14 +17,15 @@ public class MoveValidity {
     // TODO: als de kleur BLACK is, is de primaire richting positief (1). als de kleur van hert stuk WHITE is, is die richting negatief (-1);
     private static int direction = 1;
 
-    public static void validityInit(Field fp, Field tf) {
-        pieceField = fp;
+    public static void validityInit(Field pf, Field tf) {
+        pieceField = pf;
         targetField = tf;
         piece = pieceField.getPieceOnField().get();
         wantedMove = new Move((targetField.getPositionOnBoard().x - pieceField.getPositionOnBoard().x),
                 (targetField.getPositionOnBoard().y - pieceField.getPositionOnBoard().y));
         if (piece.checkColor().equals(Piece.Color.BLACK)) {
             direction = 1;
+
         } else direction = -1;
     }
 
@@ -39,6 +40,8 @@ public class MoveValidity {
         if (generalCheck())
             return false; // als het doelveld bezet wordt door een stuk van de eigen kleur -> geen valid move
         else {
+            // hier weten we dus dat het doelveld misschien bezet is door een andere kleur, maar niet door de eigen kleur.
+            // het is nog onduidelijk of de route ernaartoe vrij is
             if (piece.getClass().equals(Pawn.class)) return isMoveValidPawn();
             else return isMoveValidInverted(piece.getMoves());
         }

@@ -48,5 +48,7 @@ public class Field {
         return blackField;
     }
 
-
+    public String printPoint() {
+        return "[" + positionOnBoard.x + ", " + positionOnBoard.y + "]";
+    }
 }

@@ -25,6 +25,4 @@ public class Move {
     public int getAddToY() {
         return addToY;
     }
-
-
 }

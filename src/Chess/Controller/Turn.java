@@ -17,7 +17,7 @@ public class Turn {
 
             for (int i = 0; i < 64; i++) {
                 if (MoveValidity.checkValidityOfMove(field, game.getBoard().getBoardAsListOfFields().get(i))) {
-                    System.out.println(game.getBoard().getBoardAsListOfFields().get(i).getPositionOnBoard().toString() + " is valid!");
+                    System.out.println("a move to " + game.getBoard().getBoardAsListOfFields().get(i).printPoint() + " is valid!");
                 }
             }
         }
@@ -26,23 +26,23 @@ public class Turn {
     public static List<Field> findPieces(Piece.Color color) {
         List<Field> list = new ArrayList<>();
         list.addAll(findFieldForPiece(Rook.class, color));
-//        list.addAll(findFieldForPiece(Queen.class, color));
-//        list.addAll(findFieldForPiece(King.class, color));
-//        list.addAll(findFieldForPiece(Knight.class, color));
-        //list.addAll(findFieldForPiece(Pawn.class, color));
+        //        list.addAll(findFieldForPiece(Queen.class, color));
+        //        list.addAll(findFieldForPiece(King.class, color));
+        //        list.addAll(findFieldForPiece(Knight.class, color));
+        //        list.addAll(findFieldForPiece(Pawn.class, color));
         list.addAll(findFieldForPiece(Bishop.class, color));
         return list;
     }
 
-    public static List<Field> findFieldForPiece(Class piece, Piece.Color color) {
+    private static List<Field> findFieldForPiece(Class piece, Piece.Color color) {
         List<Field> fieldList = new ArrayList<>();
         for (Field field : Game.board.getBoardAsListOfFields()) {
             if (field.getPieceOnField().isPresent()) {
-                if (field.getPieceOnField().get().checkColor().equals(color)) {
-                    if (field.getPieceOnField().get().getClass().equals(piece)) {
-                        fieldList.add(field);
-                    }
+                if (field.getPieceOnField().get().checkColor().equals(color) && field.getPieceOnField().get().getClass().equals(piece)) {
+                    System.out.println("added field: " + field.toString());
+                    fieldList.add(field);
                 }
+
             }
         }
         if (fieldList.isEmpty()) {

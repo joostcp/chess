@@ -11,8 +11,8 @@ import java.util.Random;
 public class Board {
 
 
-    private Field[][] board;
-    private List<Field> boardAsListOfFields;
+    private final Field[][] board;
+    private final List<Field> boardAsListOfFields;
     private List<Piece> blackPieces;
     private List<Piece> whitePieces;
 
@@ -39,20 +39,20 @@ public class Board {
         // remove
     }
 
-    public void printBoard() {
-        for (Field[] rij : board) {
-            for (Field field : rij) {
-                System.out.println(field.toString());
-            }
-        }
-    }
+//    public void printBoard() {
+//        for (Field[] rij : board) {
+//            for (Field field : rij) {
+//                System.out.println(field.toString());
+//            }
+//        }
+//    }
 
     private Field[][] createBoard() {
         Field[][] board = new Field[8][8];
         Piece.Color color = Piece.Color.BLACK;
-        RIJ:
+        ROW:
         for (int i = 0; i < 8; i++) {
-            KOLOM:
+            COLUMN:
             for (int j = 0; j < 8; j++) {
                 Field field = new Field(color);
                 board[i][j] = field;
@@ -88,7 +88,6 @@ public class Board {
         }
 
         ROOKS:
-        //toren
         for (int i = 0; i < 8; i += 7) {
             Piece piece = new Rook(color);
             board[0][i].pieceOnField = Optional.of(piece);
@@ -97,7 +96,6 @@ public class Board {
         }
 
         BISHOPS:
-        //loper
         for (int i = 2; i < 8; i += 3) {
             Piece piece = new Bishop(color);
             board[0][i].pieceOnField = Optional.of(piece);
@@ -106,7 +104,6 @@ public class Board {
         }
 
         KNIGHTS:
-        //paard
         for (int i = 1; i < 8; i += 5) {
             Piece piece = new Knight(color);
             board[0][i].pieceOnField = Optional.of(piece);
@@ -144,7 +141,6 @@ public class Board {
         }
 
         ROOKS:
-        //toren
         for (int i = 0; i < 8; i += 7) {
             Piece piece = new Rook(color);
             board[7][i].pieceOnField = Optional.of(piece);
@@ -153,7 +149,6 @@ public class Board {
         }
 
         BISHOPS:
-        //loper
         for (int i = 2; i < 8; i += 3) {
             Piece piece = new Bishop(color);
             board[7][i].pieceOnField = Optional.of(piece);
@@ -162,7 +157,6 @@ public class Board {
         }
 
         KNIGHTS:
-        //paard
         for (int i = 1; i < 8; i += 5) {
             Piece piece = new Knight(color);
             board[7][i].pieceOnField = Optional.of(piece);
@@ -237,7 +231,6 @@ public class Board {
         }
 
         ROOKS:
-        //toren
         for (int i = 0; i < 2; i++) {
             Piece piece = new Rook(color);
             board[rn.nextInt(max - min) + min][rn.nextInt(max - min) + min].pieceOnField = Optional.of(piece);
@@ -255,7 +248,6 @@ public class Board {
         }
 
         KNIGHTS:
-        //paard
         for (int i = 1; i < 8; i += 5) {
             Piece piece = new Knight(color);
             int x = rn.nextInt(max - min) + min;
@@ -298,7 +290,6 @@ public class Board {
         }
 
         ROOKS:
-        //toren
         for (int i = 0; i < 8; i += 7) {
             Piece piece = new Rook(color);
             board[7][i].pieceOnField = Optional.of(piece);
@@ -307,7 +298,6 @@ public class Board {
         }
 
         BISHOPS:
-        //loper
         for (int i = 2; i < 8; i += 3) {
             Piece piece = new Bishop(color);
             board[7][i].pieceOnField = Optional.of(piece);
@@ -316,7 +306,6 @@ public class Board {
         }
 
         KNIGHTS:
-        //paard
         for (int i = 1; i < 8; i += 5) {
             Piece piece = new Knight(color);
             board[7][i].pieceOnField = Optional.of(piece);
